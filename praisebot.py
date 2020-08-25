@@ -50,9 +50,6 @@ async def praise(ctx, member: discord.Member = None):
 
 	print(str(member))
 
-	# List kudos
-	# List all kudos you've ever gotten, and if there are none, send them some praise!
-
 	if member:
 		if str(member) in points:
 			points[str(member)] += 1
